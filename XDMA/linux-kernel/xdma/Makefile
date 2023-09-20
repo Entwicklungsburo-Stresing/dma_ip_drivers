@@ -5,7 +5,9 @@ SHELL = /bin/bash
 # - config_bar_num=,	xdma pci config bar number
 # - xvc_bar_num=,	xvc pci bar #
 # - xvc_bar_offset=,	xvc register base offset
-# 
+#
+DEBUG=1
+
 ifneq ($(xvc_bar_num),)
 	XVC_FLAGS += -D__XVC_BAR_NUM__=$(xvc_bar_num)
 endif
