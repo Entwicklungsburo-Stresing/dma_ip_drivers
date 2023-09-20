@@ -1,0 +1,13 @@
+
+*.cmd
+*.o
+XDMA/linux-kernel/tools/dma_from_device
+XDMA/linux-kernel/tools/dma_to_device
+XDMA/linux-kernel/tools/performance
+XDMA/linux-kernel/tools/reg_rw
+XDMA/linux-kernel/tools/test_chrdev
+*.symvers
+*.order
+*.ko
+*.mod
+XDMA/linux-kernel/xdma/xdma.mod.c
